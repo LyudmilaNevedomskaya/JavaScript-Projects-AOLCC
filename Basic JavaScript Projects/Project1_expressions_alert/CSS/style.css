@@ -1,0 +1,22 @@
+button {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 18px;
+  padding: 10px 25px;
+  border: none;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#par {
+  display: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  background-color: rgb(255, 255, 0);
+  padding: 10px;
+  text-align: center;
+}
+/* Adding class on button click */
+.visible {
+  display: block !important;
+}

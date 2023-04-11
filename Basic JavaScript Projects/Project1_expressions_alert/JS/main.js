@@ -29,3 +29,13 @@ document.write("<hr>");
 document.write("3 + 3 = ");
 document.write(3 + 3);
 document.write("<hr>");
+
+//Events
+function showSentence() {
+  document.getElementById("par").classList.toggle("visible");
+  // if (par.style.display === "none") {
+  //   par.style.display = "block";
+  // } else {
+  //   par.style.display = "none";
+  // }
+}
