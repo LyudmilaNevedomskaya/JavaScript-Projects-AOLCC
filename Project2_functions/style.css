@@ -34,6 +34,17 @@ button {
   padding: 30px;
   color: aliceblue;
 }
+.joke-btn {
+  background-color: orange;
+}
+#joke {
+  display: none;
+  width: 80%;
+  margin: 20px auto;
+}
+#joke img {
+  width: 100%;
+}
 /* Adding class on button click */
 .visible {
   display: block !important;
