@@ -1,0 +1,40 @@
+body {
+  background-color: darkgrey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 18px;
+  padding: 20px 45px;
+  border: none;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#par {
+  display: none;
+  font-size: 42px;
+  background-color: rgb(255, 255, 0);
+  padding: 30px;
+  text-align: center;
+}
+.btn-answer {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: orange;
+  font-size: 16px;
+  margin-left: auto;
+}
+#answer {
+  display: none;
+  background-color: orangered;
+  padding: 30px;
+  color: aliceblue;
+}
+/* Adding class on button click */
+.visible {
+  display: block !important;
+}
