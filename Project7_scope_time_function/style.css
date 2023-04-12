@@ -1,0 +1,29 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.vote {
+  background-color: crimson;
+  padding: 20px;
+  color: azure;
+}
+
+.time {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: coral;
+  padding: 20px;
+  color: azure;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+}
+
+input {
+  padding: 10px 15px;
+}
