@@ -1,0 +1,51 @@
+document.write(typeof "Hello World!!!");
+document.write("<hr>")
+document.write(typeof true);
+document.write("<hr>");
+document.write(typeof 15);
+document.write("<hr>");
+document.write("12" + 15);
+document.write("<hr>");
+document.write(0/0);
+document.write("<hr>");
+document.write(isNaN("Hello"));
+document.write("<hr>");
+document.write(isNaN(5));
+document.write("<hr>");
+document.write(2E310);
+document.write("<hr>");
+document.getElementById("infinity").innerHTML = 1.86565989456465498789755165489789451651654E310;
+document.write(10 < 5);
+document.write("<hr>");
+document.write(10 > 5);
+document.write("<hr>");
+
+console.log(3 + 5);
+console.log(2 > 15);
+console.log(2 == 15);
+console.log(2 == 2);
+
+document.write("Return true by ensuring to match the data type and value: ");
+document.write(2 === 2);
+document.write("<hr>");
+document.write("Return false by writing a different data type and different value: ");
+document.write('ten' === 10);
+document.write("<hr>");
+document.write("Return false by writing a different data type but the same value for both: ");
+document.write('10' === 10);
+document.write("<hr>");
+document.write("Return false by writing the same data type but a different value for both: ");
+document.write(5 === 5.5)
+document.write("<hr>");
+document.write("5 > 10 && 10 > 4 is ");
+document.write(5 > 10 && 10 > 4);
+document.write("<hr>");
+document.write("5 > 10 || 10 > 4 is ");
+document.write(5 > 10 || 10 > 4);
+document.write("<hr>");
+document.write("!(20 > 10) is ");
+document.write(!(20 > 10));
+document.write("<hr>");
+document.write("!(5 > 10) is ");
+document.write(!(5 > 10));
+document.write("<hr>");
