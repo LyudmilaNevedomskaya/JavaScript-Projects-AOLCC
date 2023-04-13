@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Methods</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>String Methods</h1>
+    <hr />
+    <!-- CONCAT METHOD -->
+    <h2>concat() method</h2>
+    <p id="concatenate"></p>
+    <button onclick="fullSentence()">Click and see a sentence</button>
+    <hr />
+
+    <!-- SLICE METHOD -->
+    <h2>slice() method</h2>
+    <p>Full sentence: "All work and no play makes Johnny a dull boy."</p>
+    <p id="slice"></p>
+    <button onclick="sliceMethod()">Click Here</button>
+    <hr />
+
+    <!-- toUpperCase METHOD -->
+    <h2>toUpperCase() method</h2>
+    <p>"What we think, we become." - Buddha</p>
+    <p id="upperCase"></p>
+    <button onclick="upMethod()">Click Here to make it Uppercase</button>
+    <hr />
+
+    <!-- SEARCH METHOD -->
+    <h2>search() method</h2>
+    <p>
+      "Any code of your own that you haven't looked at for six or more months
+      might as well have been written by someone else."
+    </p>
+    <p>Enter any word from the sentence above to know it's position.</p>
+    <p id="position"></p>
+    <input id="word" />
+    <button onclick="searchMethod()">Search</button>
+    <hr />
+
+    <!-- toString METHOD -->
+    <h2>toString() method</h2>
+    <p>Enter any number below</p>
+    <p id="number_to_string"></p>
+    <input id="number" />
+    <button onclick="numberToStringMethod()">Convert</button>
+    <hr />
+
+    <!-- toPrecision METHOD -->
+    <h2>toPrecision() method</h2>
+    <p>This method formats a number to a specified length.</p>
+    <p>Number: 13.371456186596231589654135495264</p>
+    <p>Enter the number from 2 to 7 to specify the length.</p>
+    <p id="precision"></p>
+    <input id="num-to-prec" />
+    <button onclick="specifyLength()">Start</button>
+    <hr />
+
+    <!-- toFixed METHOD -->
+    <h2>toFixed() method</h2>
+    <p>
+      This method converts a number to a string, rounded to a specified number of decimals.
+    </p>
+    <p>Number: 13.371456186596231589654135495264</p>
+    <p>Enter the number from 0 to 5 to get the result.</p>
+    <p id="toFix"></p>
+    <input id="num-to-fix" />
+    <button onclick="fixedFunction()">Start</button>
+    <hr />
+
+    <!-- valueOf METHOD -->
+    <h2>valueOf() method</h2>
+    <p>This method returns the primitive value of a string and does not change the original string.</p>
+    <p>Get the value of a text: "If at first you don't succeed; call it version 1.0"</p>
+    <p id="value"></p>
+    <button onclick="getValue()">Show the Result</button>
+    <hr />
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
