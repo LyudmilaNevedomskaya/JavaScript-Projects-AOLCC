@@ -1,0 +1,54 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #3C486B;
+}
+h1 {
+  margin: 40px auto;
+  margin-top: 20px;
+  color: #F9D949;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+h3 {
+  color: #F0F0F0;
+  font-size: 28px;
+}
+h4 {
+  color: #DDFFBB;
+  font-size: 18px;
+}
+#frmMenu {
+  color: #F0F0F0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+#btnOrder {
+  margin: 10px auto;
+  display: block;
+  font-size: 18px;
+  background-color: #F45050;
+  color: #F0F0F0;
+  border: none;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+.size, .toppings {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cart {
+  margin: 0px auto;
+  display: flex;
+}
+#showText {
+  margin: 0px auto;
+  float: left;
+  color: #F0F0F0;
+}
+#totalPrice {
+  margin: 0 auto;
+  float: right;
+}
